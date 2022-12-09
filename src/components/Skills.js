@@ -35,23 +35,24 @@ export const Skills = () => {
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
                         <h2>Skills</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p>
+                        <p>Well-versed in numerous programming languages including <br/> HTML5, CSS3, Less, JavaScript, ReactJs, Redux, NodeJs, Express, PostgreSQL and GraphQL.</p>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/FrRqouiu6jE?start=1413" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                <img src={meter1} alt="Image" />
-                                <h5>Web Development</h5>
+                                <h5>Frontend Developer</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="Image" />
-                                <h5>Brand Identity</h5>
+                                <h5>Full Stack Developer</h5>
                             </div>
                             <div className="item">
-                                <img src={meter3} alt="Image" />
-                                <h5>Logo Design</h5>
+                                <h5>Web Designer</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
-                                <h5>Web Development</h5>
+                                <h5>Solution Engineer</h5>
+                            </div>
+                            <div className="item">
+                                <h5>Digital Commerce</h5>
                             </div>
                         </Carousel>
                     </div>
