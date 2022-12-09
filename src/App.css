@@ -601,15 +601,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
 
   .contact {
-    padding: 50px 90px;
-  }
-
-  .contact h2 {
-    font-size: 30px;
+    padding: 50px 40px;
   }
 
   .contact img{
     width: 100%;
+    padding: 50px 0;
   }
 
   .contact-icon{
