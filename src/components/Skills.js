@@ -36,7 +36,7 @@ export const Skills = () => {
                     <div className="skill-bx wow zoomIn">
                         <h2>Skills</h2>
                         <p>Well-versed in numerous programming languages including <br/> HTML5, CSS3, Less, JavaScript, ReactJs, Redux, NodeJs, Express, PostgreSQL and GraphQL.</p>
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/FrRqouiu6jE?start=1413" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe class="iframe" src="https://www.youtube.com/embed/FrRqouiu6jE?start=1413" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
