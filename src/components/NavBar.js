@@ -28,6 +28,12 @@ export const NavBar = () => {
     return () => window.removeEventListener("scroll", onScroll);
   }, [])
 
+  // Toggle (add/remove) the .dark-theme class to the body
+  const onToggle = () => {
+    document.body.classList.toggle('dark-theme');  
+    console.log('toggle')
+  }
+
   const onUpdateActiveLink = (value) => {
     setActiveLink(value);
   }
@@ -57,6 +63,7 @@ export const NavBar = () => {
               <HashLink to='#connect'>
                 <button className="vvd"><span>Let’s Connect </span> </button>
               </HashLink>
+              <button className="btn-toggle" onClick={() => onToggle()}>Toggle Dark Mode</button>
             </span>
           </Navbar.Collapse>
         </Container>
