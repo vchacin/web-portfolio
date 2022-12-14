@@ -69,13 +69,13 @@ export const Contact = () => {
                     <Col size={12} sm={6} className="px-1">
                     </Col>
                     <Col size={12} sm={1}>
-                      <img class="contact-icon" src={contactIcon1} alt="svg" />
+                      <img className="contact-icon" src={contactIcon1} alt="svg" />
                     </Col>
                     <Col size={12} sm={11} className="px-1">
                       <p>Buenos Aires, Arg</p>
                     </Col>
                     <Col size={12} sm={1}>
-                      <img class="contact-icon" src={contactIcon2} alt="svg" />
+                      <img className="contact-icon" src={contactIcon2} alt="svg" />
                     </Col>
                     <Col size={12} sm={11} className="px-1">
                       <p>arq.vchacin@gmail.com</p>
