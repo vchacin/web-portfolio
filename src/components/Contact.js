@@ -63,21 +63,13 @@ export const Contact = () => {
                 <h2>Get In Touch</h2>
                 <form onSubmit={handleSubmit}>
                   <Row>
-                    <Col size={12} sm={6} className="px-1">
+                    <Col size={12} sm={12} className="px-1">
                       <p>Scan the qr or find me on social networks.</p>
                     </Col>
-                    <Col size={12} sm={6} className="px-1">
-                    </Col>
-                    <Col size={12} sm={1}>
-                      <img className="contact-icon" src={contactIcon1} alt="svg" />
-                    </Col>
-                    <Col size={12} sm={11} className="px-1">
+                    <Col size={12} sm={12} className="px-1">
                       <p>Buenos Aires, Arg</p>
                     </Col>
-                    <Col size={12} sm={1}>
-                      <img className="contact-icon" src={contactIcon2} alt="svg" />
-                    </Col>
-                    <Col size={12} sm={11} className="px-1">
+                    <Col size={12} sm={12} className="px-1">
                       <p>arq.vchacin@gmail.com</p>
                     </Col>
                     {
