@@ -36,6 +36,8 @@ body {
   font-family: 'Centra', sans-serif !important;
 }
 
+/* DARK THEME STARTS */
+
 .dark-theme {
   font-weight: 400;
   overflow-x: hidden;
@@ -44,6 +46,34 @@ body {
   color: rgb(255, 0, 0) !important;
   font-family: 'Times New Roman', Times, serif;
 }
+
+/* DARK THEME ENDS */
+
+/* TOGGLE STARTS */
+
+/* .float{
+	position:fixed;
+	width:60px;
+	height:60px;
+
+	bottom:40px;
+	right:40px;
+
+	border-radius:50px;	
+  text-align:center;
+  font-size:30px;
+  z-index:100;
+} */
+
+nav.navbar .navbar-toggler-theme {
+  width: 24px;
+  height: 17px;
+  position: fixed;
+  bottom: 50px;
+  right:40px;
+}
+
+/* TOGGLE ENDS */
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
