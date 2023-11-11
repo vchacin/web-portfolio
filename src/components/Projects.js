@@ -1,5 +1,6 @@
 import { Container, Row, Col, Tab } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
+import projImg0 from "../assets/img/p-0.jpg";
 import projImg1 from "../assets/img/p-1.jpeg";
 import projImg2 from "../assets/img/p-2.jpeg";
 import projImg3 from "../assets/img/p-3.jpeg";
@@ -16,6 +17,12 @@ import TrackVisibility from 'react-on-screen';
 export const Projects = () => {
 
   const projects = [
+    {
+      title: "Maya Ocean Real State",
+      url: "https://mayaocean.com/",
+      description: "Design & Development",
+      imgUrl: projImg0,
+    },
     {
       title: "Element Management",
       url: "https://elementmanagement.mx/",
