@@ -67,8 +67,8 @@ export const NavBar = () => {
             </span>
           </Navbar.Collapse>
           <div className="social-icon navbar-toggler-theme float" onClick={() => onToggle()}>
-            <a>
-              <img src={navIcon4} alt="github" />
+            <a href="/">
+              <img src={navIcon4} alt="navbar" />
             </a>
           </div>
         </Container>
