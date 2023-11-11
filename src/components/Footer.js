@@ -14,7 +14,7 @@ export const Footer = () => {
               <a href="https://dribbble.com/uxvictoria"><img src={navIcon2} alt="Icon" /></a>
               <a href="https://github.com/vchacin"><img src={navIcon3} alt="Icon" /></a>
             </div>
-            <p>Copyright 2022. All Rights Reserved</p>
+            <p>Copyright 2023. All Rights Reserved</p>
           </Col>
         </Row>
       </Container>
